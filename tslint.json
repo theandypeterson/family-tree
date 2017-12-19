@@ -1,0 +1,12 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+    	"no-unused-variable": [true, "react"],
+	    "quotemark": ["single", "avoid-escape"],
+        "interface-name": [false],
+        "no-var-requires": false,
+        "max-line-length": [false],
+        "no-console": [false],
+        "object-literal-sort-keys": false
+    }
+}
