@@ -21,6 +21,41 @@ const people = [
     first_name: 'Carol',
     last_name: 'Smith',
   },
+  {
+    id: 4,
+    first_name: 'Jimbo',
+    last_name: 'Smith',
+  },
+  {
+    id: 5,
+    first_name: 'Karl',
+    last_name: 'Smith',
+  },
+  {
+    id: 6,
+    first_name: 'Bob',
+    last_name: 'Smith',
+  },
+  {
+    id: 7,
+    first_name: 'Angela',
+    last_name: 'Smith',
+  },
+  {
+    id: 8,
+    first_name: 'Ken',
+    last_name: 'Smith',
+  },
+  {
+    id: 9,
+    first_name: 'Mike',
+    last_name: 'Smith',
+  },
+  {
+    id: 10,
+    first_name: 'Sean',
+    last_name: 'Smith',
+  },
 ];
 
 const relationships = [
@@ -31,7 +66,39 @@ const relationships = [
   {
     child_id: 1,
     parent_id: 3,
-  }
+  },
+  {
+    child_id: 4,
+    parent_id: 2,
+  },
+  {
+    child_id: 4,
+    parent_id: 3,
+  },
+  {
+    child_id: 3,
+    parent_id: 9,
+  },
+  {
+    child_id: 5,
+    parent_id: 9,
+  },
+  {
+    child_id: 6,
+    parent_id: 5,
+  },
+  {
+    child_id: 5,
+    parent_id: 6,
+  },
+  {
+    child_id: 8,
+    parent_id: 4,
+  },
+  {
+    child_id: 10,
+    parent_id: 4,
+  },
 ];
 
 const seed = async (knex) => {

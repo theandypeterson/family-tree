@@ -1,13 +1,12 @@
 import { makeExecutableSchema } from 'graphql-tools';
 
-const rootSchema = `
-scalar JSON
-
+const schema = `
 type Person {
   id: Int
   firstName: String
   lastName: String
   parents: [Person]
+  siblings: [Person]
   children: [Person]
 }
 
@@ -21,7 +20,7 @@ schema {
 }
 `;
 
-const rootResolvers = {
+const resolvers = {
   Person: {
     parents(person, args, context) {
       return context.Person.findParents(person.id);
@@ -40,10 +39,8 @@ const rootResolvers = {
   },
 };
 
-const schema = [rootSchema];
-const resolvers = rootResolvers;
 const executableSchema = makeExecutableSchema({
-  typeDefs: schema,
+  typeDefs: [schema],
   resolvers,
 });
 
