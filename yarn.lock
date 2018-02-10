@@ -504,6 +504,12 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+data-loader@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/data-loader/-/data-loader-0.3.0.tgz#1b632e930dd775ff6927962aa685f8f5f34e5b94"
+  dependencies:
+    lodash-es "^4.17.4"
+
 dataloader@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-1.3.0.tgz#6fec5be4b30a712e4afd30b86b4334566b97673b"
@@ -1528,6 +1534,10 @@ liftoff@2.3.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
+lodash-es@^4.17.4:
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.5.tgz#9fc6e737b1c4d151d8f9cae2247305d552ce748f"
+
 lodash._baseassign@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz#8c38a099500f215ad09e59f1722fd0c52bfe0a4e"
@@ -2038,6 +2048,10 @@ qs@6.5.1:
 qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
+
+ramda@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
 
 randomatic@^1.1.3:
   version "1.1.7"

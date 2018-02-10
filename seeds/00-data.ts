@@ -56,6 +56,16 @@ const people = [
     first_name: 'Sean',
     last_name: 'Smith',
   },
+  {
+    id: 11,
+    first_name: 'Alice',
+    last_name: 'Smith',
+  },
+  {
+    id: 12,
+    first_name: 'Evan',
+    last_name: 'Smith',
+  },
 ];
 
 const relationships = [
@@ -98,6 +108,22 @@ const relationships = [
   {
     child_id: 10,
     parent_id: 4,
+  },
+  {
+    child_id: 11,
+    parent_id: 2,
+  },
+  {
+    child_id: 11,
+    parent_id: 3,
+  },
+  {
+    child_id: 12,
+    parent_id: 2,
+  },
+  {
+    child_id: 12,
+    parent_id: 3,
   },
 ];
 
