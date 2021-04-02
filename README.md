@@ -1,4 +1,4 @@
-# GraphQL Family Tree
+# GraphQL Family Tree (Andy is a Punk)
 
 This project demostrates GraphQL API design, utilizing graph-traversal to query for relationships between people.
 
